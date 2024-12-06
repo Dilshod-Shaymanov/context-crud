@@ -78,39 +78,39 @@ const Login = () => {
   };
 
   return (
-    <div className="bg-slate-300 h-screen w-full flex justify-center items-center bg-gray-100">
-      <div className="h-auto w-[500px] p-6 border rounded-lg shadow-lg bg-white">
-        <h2 className="text-xl font-bold text-center mb-6 text-blue-500">
+    <div className=" h-screen w-full flex justify-center items-center bg-gray-100">
+      <div className=" bg-slate-200 h-auto w-[500px] p-6 border rounded-lg shadow-lg bg-white">
+        <h2 className=" text-xl font-bold text-center mb-6 text-blue-500">
           {editUser ? "Update" : "Create"} User
         </h2>
-        <form onSubmit={handleForm} className="space-y-4">
+        <form onSubmit={handleForm} className="bg space-y-4">
           <input
             ref={fname}
             required
             type="text"
             placeholder="First Name"
-            className="w-full outline-none bg-slate-100 py-2 px-4 rounded-lg border-2 focus:border-blue-500"
+            className="w-full outline-none bg-slate-100 py-2 px-4 rounded-lg "
           />
           <input
             ref={lname}
             required
             type="text"
             placeholder="Last Name"
-            className="w-full outline-none bg-slate-100 py-2 px-4 rounded-lg border-2 focus:border-blue-500"
+            className="w-full outline-none bg-slate-100 py-2 px-4 rounded-lg "
           />
           <input
             ref={age}
             required
             type="number"
             placeholder="Age"
-            className="w-full outline-none bg-slate-100 py-2 px-4 rounded-lg border-2 focus:border-blue-500"
+            className="w-full outline-none bg-slate-100 py-2 px-4 rounded-lg"
           />
           <input
             ref={profession}
             required
             type="text"
             placeholder="Profession"
-            className="w-full outline-none bg-slate-100 py-2 px-4 rounded-lg border-2 focus:border-blue-500"
+            className="w-full outline-none bg-slate-100 py-2 px-4 rounded-lg "
           />
 
           <div className="flex items-center gap-10 justify-center">
